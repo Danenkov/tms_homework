@@ -7,40 +7,40 @@ public class Main3 {
         String month = scanner.nextLine();
         switch (month) {
             case "january":
-                System.out.println("winter");
+                System.out.println("This is winter");
                 break;
             case "february":
-                System.out.println("winter");
+                System.out.println("This is winter");
                 break;
             case "march":
-                System.out.println("spring");
+                System.out.println("This is spring");
                 break;
             case "april":
-                System.out.println("spring");
+                System.out.println("This is spring");
                 break;
             case "may":
-                System.out.println("spring");
+                System.out.println("This is spring");
                 break;
             case "june":
-                System.out.println("summer");
+                System.out.println("This is summer");
                 break;
             case "july":
-                System.out.println("summer");
+                System.out.println("This is summer");
                 break;
             case "august":
-                System.out.println("summer");
+                System.out.println("This is summer");
                 break;
             case "september":
-                System.out.println("autumn");
+                System.out.println("This is autumn");
                 break;
             case "october":
-                System.out.println("autumn");
+                System.out.println("This is autumn");
                 break;
             case "november":
-                System.out.println("autumn");
+                System.out.println("This is autumn");
                 break;
             case "december":
-                System.out.println("winter");
+                System.out.println("This is winter");
                 break;
             default:
                 System.out.println("There is no such month!");
