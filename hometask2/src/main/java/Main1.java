@@ -10,6 +10,7 @@ public class Main1 {
             System.out.print("Количество тысяч = ");
             System.out.println( value1);
             int value2 = (value-(value1*1000))/100;
+//            проще int value2 = value%1000/100;
             System.out.print("Количество сотен = ");
             System.out.println( value2);
             int value3 = (value-(value1*1000)-(value2*100))/10;
