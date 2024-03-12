@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите число элементов");
+        System.out.println("введите число элементов");
         int[] arr = new int[scanner.nextInt()];
         arr[0] = 0;
         arr[1] = 1;
