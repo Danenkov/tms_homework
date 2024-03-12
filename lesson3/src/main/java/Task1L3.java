@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main1 {
+public class Task1L3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число от 1 до 10000");
