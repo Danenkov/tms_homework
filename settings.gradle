@@ -1,6 +1,5 @@
 rootProject.name = 'tms_homework'
-include 'hometask1'
-include 'hometask2'
-include 'hometask2'
+include 'lesson2'
+include 'lesson3'
 include 'lesson4'
 include 'lesson5'
