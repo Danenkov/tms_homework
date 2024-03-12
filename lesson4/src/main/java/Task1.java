@@ -12,8 +12,8 @@ public class Task1 {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum = sum + arr[i];
-            average = (double) sum / arr.length;
         }
+        average = (double) sum / arr.length;
         System.out.println("среднее арифметическое всех чисел = " + average);
 //        ----------Task 1.2 скопировать в новый массив но в обратном порядке:
         int[] arrCopy = new int[arr.length];
