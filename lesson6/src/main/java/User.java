@@ -34,15 +34,9 @@ public class User {
     }
 
     public double userSalary() {
-        int kfProf = 0;
+
         double kfStag = 0;
-        if (profession == Profession.DIRECTOR) {
-            kfProf = 3;
-        } else if (profession == Profession.HR) {
-            kfProf = 2;
-        } else if (profession == Profession.WORKER) {
-            kfProf = 1;
-        }
+
         if (experience < 5) {
             kfStag = 1;
         } else if (experience < 10) {
@@ -52,7 +46,7 @@ public class User {
         } else if (experience < 30) {
             kfStag = 1.8;
         }
-        double Salary = 1000 * kfProf * kfStag;
+        double Salary = 1000 * kfStag * profession.getKfProf();
         System.out.println("зп " + name + " = " + Salary);
         return Salary;
     }
